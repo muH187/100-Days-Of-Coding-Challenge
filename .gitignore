@@ -1,0 +1,5 @@
+# Ignore all main.js files
+**/main.js
+
+# But include main.ts files
+!**/main.ts
