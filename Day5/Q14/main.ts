@@ -2,7 +2,7 @@
 
 let dinner_invitation: string [] = ["Muhammad Mirza", "Yasir", "Bilal"]
 
-dinner_invitation.forEach(invite => {
-    console.log(`I would like ${invite} to come to our dinner party.`);
+dinner_invitation.forEach(guest => {
+    console.log(`I would like ${guest} to come to our dinner party.`);
     
 })
