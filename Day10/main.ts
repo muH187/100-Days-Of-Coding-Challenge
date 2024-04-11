@@ -13,3 +13,12 @@ if( age <= 3) {
 } else {
     console.log("You are Senior")
 }
+
+// Question 29:
+let favorite_fruit: string[] = ["Mango", "Banana", "Kivi", "Watermelon", "Grapes"] 
+if ( favorite_fruit.includes("Mango")) {
+    console.log("I like Mango");
+}
+if ( favorite_fruit.includes("Watermelon")) {
+    console.log("I like Watermelon");
+}
