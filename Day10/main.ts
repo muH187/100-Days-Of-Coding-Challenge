@@ -22,3 +22,14 @@ if ( favorite_fruit.includes("Mango")) {
 if ( favorite_fruit.includes("Watermelon")) {
     console.log("I like Watermelon");
 }
+
+// Question 30:
+let usernames: string[] = ["Ali", "Mirza", "Wali", "Bilal", "Hasan", "Umer"]
+usernames.forEach(username => {
+    if(username == "Ali") {
+        console.log(`How are you admin ${username}`);
+    } else {
+        console.log(`How are you ${username}`);
+    }
+})
+
