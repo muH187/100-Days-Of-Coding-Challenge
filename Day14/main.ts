@@ -9,3 +9,12 @@ function make_album(artist:string, title:string, tracks?:number) {
 console.log(make_album("Artist One", "The Frist Album"));
 console.log(make_album("Artist Two", "The Second Album"));
 console.log(make_album("Artist Third", "The Third Album", 15));
+
+// Question 41:
+let magicians:string[] = ["The Black Rock", "Thomas Haunted", "Chris Killer"]
+function display_name(magicians:string[]) {
+    magicians.forEach(magician => {
+        console.log(`He is ${magician}`);
+    })
+}
+display_name(magicians)
