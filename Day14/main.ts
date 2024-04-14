@@ -18,3 +18,12 @@ function display_name(magicians:string[]) {
     })
 }
 display_name(magicians)
+
+// Question 42:
+function make_greet(magicians:string []) {
+    for ( let i = 0; i < magicians.length; i++) {
+        magicians[i] = magicians[i] + " the Greet"
+    }
+}
+make_greet(magicians)
+display_name(magicians)
