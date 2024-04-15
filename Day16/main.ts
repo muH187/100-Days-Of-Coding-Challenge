@@ -8,3 +8,13 @@ let laptop = {
     }
 }
 laptop.describe()
+
+// Question 47:
+let laptops = [
+    {make: "Apple", model: "Macbook Pro", year: "2020"},
+    {make: "Dell", model: "Elite", year: "2019"},
+    {make: "Lenovo", model: "Carbon X", year: "2024"},
+]
+let [firstLine, secondLine] = laptops
+console.log(firstLine);
+console.log(secondLine);
