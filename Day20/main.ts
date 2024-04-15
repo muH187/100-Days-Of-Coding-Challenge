@@ -13,3 +13,15 @@ function makeAdder(valueToAdd: number): (number) => number {
 }
 let addTwenty = makeAdder(20)
 console.log(addTwenty(5));
+
+// Question 60:
+let userProfile = function () {
+    let name = "Muhammad Ali"
+    let age = 19
+    return {
+        displayInfo: function() {
+            console.log(`Name: ${name} and Age: ${age}`);
+        }
+    }
+}()
+userProfile.displayInfo()
