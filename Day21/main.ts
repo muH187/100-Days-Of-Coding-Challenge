@@ -26,3 +26,22 @@ let student2: Student = {
 }
 console.log(student1);
 console.log(student2);
+
+// Question 63:
+type Shape = {
+    kind: "circle" | "rectangle",
+    radius?: number,
+    width?: number,
+    heigth?: number
+}
+let circle: Shape = {
+    kind: "circle",
+    radius: 20
+}
+let rectangle: Shape = {
+    kind: "rectangle",
+    width: 50,
+    heigth: 20
+}
+console.log(circle);
+console.log(rectangle);
