@@ -17,3 +17,12 @@ let developerSkills = {
 }
 let { languages, frameworks, tools } = developerSkills
 console.log(`Languages: ${languages[0]}, Frameworks: ${frameworks[0]}, Tools: ${tools[1]}`);
+
+// Question 54:
+function objectWithDynamicKey (key:string, value:string) {
+    let dynamicObj = {}
+    dynamicObj[key] = value
+    return dynamicObj
+}
+let userPreference = objectWithDynamicKey("Dark", "Mode")
+console.log(userPreference);
