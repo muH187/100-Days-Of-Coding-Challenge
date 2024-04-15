@@ -18,3 +18,10 @@ let laptops = [
 let [firstLine, secondLine] = laptops
 console.log(firstLine);
 console.log(secondLine);
+
+// Question 48:
+let laptopPrice1 = [15000, 20000, 8000]
+let laptopPrice2 = [19000, 30000, 4000]
+let combinedPrice = [...laptopPrice1, ...laptopPrice2].sort((a, b) => a + b)
+console.log(combinedPrice);
+ 
