@@ -13,5 +13,13 @@ function greet(name: string = "Anonymous") {
 greet()
 greet("Ali")
 
-
 // Question 78:
+function squareDeclaration(number: number): number {
+    return number * number
+}
+const squareExpression = function(number: number): number {
+    return number * number
+}
+
+console.log(squareDeclaration(8));
+console.log(squareExpression(9));
