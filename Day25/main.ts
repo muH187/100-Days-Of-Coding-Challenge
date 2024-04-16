@@ -17,3 +17,21 @@ try {
 } catch (error) {
     console.log("Error: Can't reassign a 'const'-declared variable.");
 }
+
+// Question 72:
+{
+    let blockLet = "visible inside the block"
+    const blockConst = "also visible inside the block"
+    console.log(blockLet);
+    console.log(blockConst);
+}
+try {
+    console.log(blockLet);
+} catch(error) {
+    console.log("blockLet is not accessible outside the block");
+}
+try {
+    console.log(blockConst);
+} catch(error) {
+    console.log("blockConst is not accessible outside the block");
+}
