@@ -10,3 +10,9 @@ function convert(string: string) {
     console.log(string.toLowerCase());
 }
 convert("Hey, I'm Muhammad Ali");
+
+// Question 84:
+function replaceStr(sentence: string): string {
+    return sentence.replace(/JavaScript/g, "TypeScript")
+}
+console.log(replaceStr("I'm learning JavaScript."))
