@@ -10,3 +10,10 @@ function convertStringToNumber(str: string): number {
     return parseInt(str)
 }
 console.log(convertStringToNumber("123"));
+
+// Question 90:
+function isValueNaN(value: any): boolean {
+    return isNaN(value)
+}
+console.log(isValueNaN("Muhammad Ali"));
+console.log(isValueNaN(2024));
