@@ -11,3 +11,9 @@ function getRandomHexColor(): string {
 }
 
 console.log(getRandomHexColor());
+
+// Question 105:
+function randomDiceRoll(): number {
+    return Math.floor(Math.random() * 6 + 1)
+}
+console.log(randomDiceRoll());
