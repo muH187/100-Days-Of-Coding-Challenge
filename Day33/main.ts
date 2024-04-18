@@ -18,3 +18,17 @@ function daysUntilNewYear(): number {
 }
 
 console.log(daysUntilNewYear() + " days until New Year.");
+
+// Question 99:
+function getNextBirthday(month: number, day: number): Date {
+    const today = new Date();
+    let year = today.getFullYear();
+    const birthday = new Date(year, month - 1, day);
+    if (birthday < today) {
+        birthday.setFullYear(year + 1);
+    }
+    return birthday;
+}
+
+const nextBirthday = getNextBirthday(7, 8);
+console.log("Next birthday on:", nextBirthday.toLocaleDateString());
