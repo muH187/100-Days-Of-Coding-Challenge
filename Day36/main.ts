@@ -4,3 +4,10 @@ function isLeapYear(year: number): boolean {
 }
 console.log(isLeapYear(2024));
 console.log(isLeapYear(2025));
+
+// Question 107:
+function numberDivisible(number: number): boolean {
+    return number % 2 === 0 && number % 3 === 0
+}
+console.log(numberDivisible(30));
+console.log(numberDivisible(20));
