@@ -5,3 +5,13 @@ for(let i = 1; i < 11; i++) {
     }
     console.log(i);
 }
+
+// Question 122:
+let count: number = 10
+while(count > 0) {
+    if(count === 5) {
+        break
+    }
+    console.log(count);
+    count--
+}
