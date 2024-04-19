@@ -10,3 +10,7 @@ while(count < 5) {
     count++
 }
 // Question 120:
+let favoriteFruits: string[] = ["Mango", "Banana", "Kivi", "PineApple", "Watermelon", "Apple"]
+for(const fruit of favoriteFruits) {
+    console.log(fruit);
+}
