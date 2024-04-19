@@ -11,3 +11,9 @@ function numberDivisible(number: number): boolean {
 }
 console.log(numberDivisible(30));
 console.log(numberDivisible(20));
+
+// Question 108:
+function checkString(str1: string, str2: string): boolean {
+    return str1.toLowerCase() === str2.toLowerCase()
+}
+console.log(checkString("Hello World", "Hello world"));
