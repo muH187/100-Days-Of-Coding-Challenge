@@ -19,3 +19,15 @@ function grade(marks: number): string {
     }
 }
 console.log(grade(65));
+
+// Question 111:
+function categorizeAge(age: number): string {
+    if(age < 13) {
+        return 'You are Child.'
+    } else if (age < 20) {
+        return 'You are Teenager.'
+    } else {
+        return 'You are Adult'
+    }
+}
+console.log(categorizeAge(25));
