@@ -21,3 +21,15 @@ const rectangle = {
 console.log(rectangle.calArea());
 
 // Question 126:
+const object = {
+    subject: "Economics",
+    outerMethod: function () {
+        console.log(object.subject)
+
+        const innerMethod = () => {
+            console.log(object.subject)
+        }
+        innerMethod()
+    }
+}
+object.outerMethod()
