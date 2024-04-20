@@ -11,4 +11,13 @@ const obj = {
 obj.getDetail()
 
 // Question 125:
+const rectangle = {
+    lenght: 10,
+    width: 30,
+    calArea: function () {
+        return this.lenght * this.width
+    }
+}
+console.log(rectangle.calArea());
+
 // Question 126:
