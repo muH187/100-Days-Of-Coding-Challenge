@@ -11,3 +11,15 @@ const multiply = (a, b) => {
 console.log(multiply(2, 10));
 
 // Question 129:
+const traditionalVSarrow = {
+    value: "Traditional VS Arrow Function",
+    traditional: function () {
+        console.log("This is Traditional:", this.value);
+    },
+    arrow: () => {
+        console.log("This is Arrow:", this.value);
+    }
+}
+
+traditionalVSarrow.traditional()
+traditionalVSarrow.arrow()
