@@ -4,4 +4,10 @@ setTimeout(() => {
 }, 3000);
 
 // Question 149:
+console.log("Start Now.")
+setTimeout(() => {
+    console.log("This will print at the end. Because of setTimeout event.");
+}, 0)
+console.log("End Now.");
+
 // Question 150:
