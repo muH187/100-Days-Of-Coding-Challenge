@@ -11,3 +11,9 @@ setTimeout(() => {
 console.log("End Now.");
 
 // Question 150:
+// Asynchronous example
+console.log("Before asynchronous operation");
+setTimeout(() => {
+  console.log("Asynchronous operation completed");
+}, 1000);
+console.log("After asynchronous operation setup");
