@@ -9,4 +9,11 @@ if (number > 3) {
 }
 
 // Question 140:
+// let if = 5
+console.log("This line will cause a syntax error. Because, you can't use reserve keyword as variable.");
+
 // Question 141:
+async function fechData() {
+    const data = await fetchSomething()
+    console.log(data)
+}
