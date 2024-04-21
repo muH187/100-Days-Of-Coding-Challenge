@@ -9,3 +9,10 @@ try {
 } catch (error) {
     console.log(error.message)
 }
+
+// Question 138:
+console.log("Before Break Point.");
+console.log(
+    "This line has a breakpoint set on it in the browser's developer tools"
+);
+console.log("After Break Point.");
