@@ -4,6 +4,7 @@ function add(a, b) {
 }
 console.log(add(10, 50))
 
+// Function Expression
 let subtract = function(c, d) {
     return c - d
 }
